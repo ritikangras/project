@@ -1,0 +1,112 @@
+/* General container styles */
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #1e1e1e; /* Darker background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Heading styles */
+.heading {
+  font-size: 1.8rem;
+  color: #e0e0e0; /* Lighter text for readability */
+  margin-bottom: 1.5rem;
+}
+
+/* Form layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Label styling */
+.label {
+  font-weight: bold;
+  color: #ddd; /* Lighter color for labels */
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* Input and select box styles */
+.select, 
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #444; /* Lighter dark border */
+  background-color: #333; /* Dark background */
+  color: #f0f0f0; /* Light text for better contrast */
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  appearance: none; /* Removes default browser styling (for dropdowns) */
+}
+
+/* Hover effect for input/select */
+.select:hover, 
+.input:hover {
+  background-color: #444; /* Slightly lighter hover effect */
+  border-color: #555;
+}
+
+/* Focus effect */
+.select:focus, 
+.input:focus {
+  border-color: #4caf50; /* Green focus border for contrast */
+  outline: none;
+}
+
+/* Placeholder text styling */
+.input::placeholder {
+  color: #bbb; /* Light placeholder text */
+}
+
+/* Button styling */
+.button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff; /* Bright blue for the button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Disabled button */
+.button:disabled {
+  background-color: #555; /* Dark gray for disabled state */
+  cursor: not-allowed;
+}
+
+/* Button hover effect */
+.button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Result and error message styles */
+.result, 
+.error {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Result message styles */
+.result {
+  background-color: #263238; /* Darker greenish background */
+  color: #81c784; /* Light green text for success */
+}
+
+/* Error message styles */
+.error {
+  background-color: #d32f2f; /* Red background for errors */
+  color: #f44336; /* Slightly lighter red text */
+}

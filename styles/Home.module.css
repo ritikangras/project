@@ -1,0 +1,120 @@
+/* Container */
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #181818; /* Dark background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+}
+
+/* Main Section */
+.main {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #222; /* Darker background */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Deep shadow for emphasis */
+}
+
+/* Title */
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f1f1f1; /* Lighter color for contrast */
+  letter-spacing: -0.5px;
+  text-transform: uppercase; /* Modern uppercase text */
+}
+
+/* Description */
+.description {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  color: #b0b0b0; /* Soft grey for readability */
+  line-height: 1.8;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Helvetica Neue', sans-serif; /* Modern, elegant font */
+}
+
+/* Navigation Links */
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.navLinks li a {
+  font-size: 1.2rem;
+  color: #bb86fc; /* Light purple for a vibrant look */
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 5px; /* Button-like appearance */
+  transition: all 0.3s ease;
+}
+
+.navLinks li a:hover {
+  background-color: #bb86fc;
+  color: #222; /* Dark text for contrast when hovering */
+  transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+/* Contact Section */
+.contactSection {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #333; /* Dark background */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #bb86fc; /* Light purple to match the theme */
+  text-transform: uppercase;
+}
+
+.contactDescription {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f1f1f1; /* Light text on dark background */
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif; /* Clear font for contact details */
+}
+
+.contactInfo {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #b0b0b0; /* Softer grey for readability */
+}
+
+.contactLink {
+  color: #bb86fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+  color: #bb86fc; /* Light purple hover effect */
+}
+
+.contactDetail {
+  font-weight: bold;
+  color: #f1f1f1; /* Light color for contrast */
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

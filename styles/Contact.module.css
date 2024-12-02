@@ -1,0 +1,139 @@
+/* General container */
+.container {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Main section */
+.main {
+  text-align: center;
+  padding: 30px;
+  background-color: #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px; /* Added max-width for better responsiveness */
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #bb86fc; /* Accent color */
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #bb86fc; /* Accent color */
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Form container */
+.formContainer {
+  background-color: #444;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form elements */
+.formContainer input,
+.formContainer textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  background-color: #222;
+  color: #e0e0e0; /* Light text color */
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.formContainer input:focus,
+.formContainer textarea:focus {
+  border-color: #bb86fc; /* Accent color for focus */
+  outline: none;
+}
+
+/* Submit button */
+.formContainer input[type="submit"] {
+  background-color: #bb86fc;
+  color: #121212; /* Dark text for button */
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.formContainer input[type="submit"]:hover {
+  background-color: #9e6af7;
+  transform: translateY(-3px);
+}
+
+/* Social Links Section */
+.socialLinksSection {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.socialLink {
+  color: #bb86fc; /* Accent color */
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLink:hover {
+  color: #9e6af7;
+  transform: translateY(-3px);
+}
+
+/* Navigation Links */
+.navLinks {
+  margin-top: 40px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.navLinks li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.navLinks a {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* Light text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navLinks a:hover {
+  background-color: #bb86fc;
+  color: #121212; /* Darker background for hover effect */
+}

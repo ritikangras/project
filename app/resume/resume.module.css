@@ -1,0 +1,136 @@
+/* /app/resume/resume.module.css */
+
+/* General container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #e0e0e0;
+    background-color: #121212;
+  }
+  
+  /* Main Section */
+  .main {
+    padding: 40px 20px;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #bb86fc;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    font-weight: 400;
+  }
+  
+  /* Section */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  /* Section Title */
+  .sectionTitle {
+    font-size: 2.5rem;
+    color: #bb86fc;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  /* Job Description Section */
+  .jobDescription {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    line-height: 1.8;
+  }
+  
+  /* Education Section */
+  .education {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .school {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .degree {
+    font-size: 1.5rem;
+    color: #bb86fc;
+    font-weight: 600;
+  }
+  
+  .date {
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
+  
+  .educationDetails {
+    font-size: 1rem;
+    color: #e0e0e0;
+  }
+  
+  /* Skills Section */
+  .skills {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Section */
+  .projects {
+    margin-top: 20px;
+  }
+  
+  .projectTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #bb86fc;
+  }
+  
+  .projectDescription {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-top: 10px;
+  }
+
+  .navLinks li {
+    display: inline-block;
+    margin: 10px 20px;
+  }
+  
+  .navLinks a {
+    font-size: 1.1rem;
+    color: #e0e0e0; /* Light text color */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navLinks a:hover {
+    background-color: #bb86fc;
+    color: #121212; /* Darker background for hover effect */
+  }
+  
